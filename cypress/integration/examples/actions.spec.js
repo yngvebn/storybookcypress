@@ -9,6 +9,5 @@ context('Actions', () => {
   it('Find button', () => {
     cy.get('.storybook-button')
       .should('contain.text', 'Button')
-
   })
 })
